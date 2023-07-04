@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+body {
+     background-image: url(/img/mulher-ativa-com-um-sorriso-branco-como-a-neve-esta-dancando-na-parede-rosa-modelo-com-blusa-laranja-ouvindo-musica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    font-family: 'Rubik', sans-serif;
+}
+
+
+header {
+    background-color: rgba(0, 0, 0, 0.541);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.conteudo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+   
+    text-align: center;
+    
+    color: white;
+}
+
+h1 {
+    font-size: 90px;
+}
+h2 {
+    font-size: 17px;
+}
+input {
+    position: relative;
+    left: 890px;
+    top: 540px;
+    background-color: #a0e025;
+    border: none;
+    width: 198px;
+    height: 40px;
+    color: white;
+    border-radius: 15px;
+}
+
+ /* Não está responsivo e algumas coisas quebram, Fiz apenas com intenção de estudar.  */
